@@ -1,0 +1,18 @@
+# ==============================================================================
+# %USERPROFILE%\.wslconfig
+# Recommended WSL2 Resource Bounds for Coexistence with MuMu Player 12
+# Copy this file to %USERPROFILE%\.wslconfig or apply via scripts/apply_option_b.ps1
+# ==============================================================================
+
+[wsl2]
+# Clamps WSL2 VM RAM to prevent ballooning over 50% host RAM
+memory=3GB
+
+# Allocates 2 logical processors to WSL2 background daemons
+processors=2
+
+# Safe pagefile swap for WSL2
+swap=4GB
+
+# Localhost port forwarding to Windows
+localhostForwarding=true

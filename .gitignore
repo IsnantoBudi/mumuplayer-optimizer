@@ -1,0 +1,26 @@
+# ==============================================================================
+# MuMu Player Optimizer - .gitignore
+# ==============================================================================
+
+# Android Packages & Binaries (Auto-downloaded by scripts)
+*.apk
+
+# AI & Assistant Agent State
+.agents/
+.system_generated/
+*.log
+*.tmp
+*.bak
+*.broken*
+
+# Windows & OS Artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE / Editor Configurations
+.vscode/
+.idea/
+*.suo
+*.user
